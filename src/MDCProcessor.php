@@ -4,7 +4,7 @@ namespace Stevenrombauts\MonologMDC;
 
 class MDCProcessor
 {
-    public function __invoke($record)
+    public function __invoke(array $record)
     {
         if (MDC::enabled() || MDC::isEmpty()) {
             return $record;

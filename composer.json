@@ -1,5 +1,9 @@
 {
     "name": "stevenrombauts/monolog-mdc",
+    "description": "A Monolog processor to use mapped diagnostic context (MDC) with your logging",
+    "keywords": ["log", "logger", "monolog", "processor", "MDC"],
+    "license": "MIT",
+    "type": "library",
     "require": {
         "php": ">=7.1.3",
         "monolog/monolog": "~1.0"
