@@ -1,0 +1,12 @@
+{
+    "name": "stevenrombauts/monolog-mdc",
+    "require": {
+        "php": ">=7.1.3",
+        "monolog/monolog": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stevenrombauts\\MonologMDC\\": "src"
+        }
+    }
+}
