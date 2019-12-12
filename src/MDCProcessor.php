@@ -6,7 +6,7 @@ class MDCProcessor
 {
     public function __invoke(array $record)
     {
-        if (MDC::enabled() || MDC::isEmpty()) {
+        if (!MDC::enabled() || MDC::isEmpty()) {
             return $record;
         }
 
