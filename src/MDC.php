@@ -11,7 +11,7 @@ class MDC
         return empty(self::$_store);
     }
 
-    public static function put(string $key, string $value)
+    public static function put(string $key, mixed $value)
     {
         self::$_store[$key] = $value;
     }

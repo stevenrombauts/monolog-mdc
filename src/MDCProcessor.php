@@ -10,7 +10,7 @@ class MDCProcessor
             return $record;
         }
 
-        $record['extra'] = array_merge($record['extra'], MDC::all());
+        $record['context'] = array_merge($record['context'], MDC::all());
 
         return $record;
     }
