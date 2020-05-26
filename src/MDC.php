@@ -25,7 +25,7 @@ class MDC
 
     public static function get($key = null)
     {
-        if (array_key_exists($key, self::$data)) {
+        if (array_key_exists($key, self::$_store)) {
             return self::$_store[$key];
         }
         
